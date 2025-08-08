@@ -1,8 +1,7 @@
-fruits = ['apple', 'banana', 'cherry']
-for index, fruit in enumerate(fruits):
-    print(f"Index: {index}, Fruit: {fruit}")
-    
-    
-a = isinstance(str, "aa")
+value = 7
+class A:
+    value = 5
 
-print(a)  
+a = A()
+a.value = 3
+print(a.value)
